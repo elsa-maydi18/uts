@@ -1,4 +1,4 @@
-# news_app
+# uts
 
 A new Flutter project.
 
