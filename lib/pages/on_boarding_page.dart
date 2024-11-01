@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/models/on_boarding_models.dart';
-import 'package:news_app/pages/main_pages.dart';
+import 'package:uts/models/on_boarding_models.dart';
+import 'package:uts/pages/main_pages.dart';
 
 class OnBoardingPage extends StatefulWidget {
   const OnBoardingPage({super.key});

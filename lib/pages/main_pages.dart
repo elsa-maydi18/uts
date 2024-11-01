@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/pages/home_pages.dart';
-import 'package:news_app/pages/profile_pages.dart';
+import 'package:uts/pages/home_pages.dart';
+import 'package:uts/pages/profile_pages.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});

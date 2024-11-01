@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:news_app/models/ekonomi_news_models.dart';
-import 'package:news_app/pages/news_detail_page.dart';
+import 'package:uts/models/ekonomi_news_models.dart';
+import 'package:uts/pages/news_detail_page.dart';
 
 class BuildEkonomiNews extends StatelessWidget {
   final EkonomiNewsModels berita;
@@ -64,7 +64,7 @@ class BuildEkonomiNews extends StatelessWidget {
                               (berita.title?.split(" - ").last ?? ''),
                               style: const TextStyle(
                                 color: Color(0xFF969696),
-                                fontSize: 12,
+                                fontSize: 10,
                               ),
                               overflow: TextOverflow.ellipsis,
                               maxLines: 2,

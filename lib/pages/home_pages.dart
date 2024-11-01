@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/models/news_update_models.dart';
-import 'package:news_app/pages/news_detail_page.dart';
-import 'package:news_app/pages/widgets/build_tech_news.dart';
-import 'package:news_app/pages/widgets/bulid_ekonomi_news.dart';
-import 'package:news_app/pages/widgets/bulid_nasional_news.dart';
-import 'package:news_app/providres/ekonomi_new_provider.dart';
-import 'package:news_app/providres/nasional_new_provider.dart';
-import 'package:news_app/providres/news_update_provider.dart';
-import 'package:news_app/providres/tech_new_provider.dart';
+import 'package:uts/models/news_update_models.dart';
+import 'package:uts/pages/news_detail_page.dart';
+import 'package:uts/pages/widgets/build_tech_news.dart';
+import 'package:uts/pages/widgets/bulid_ekonomi_news.dart';
+import 'package:uts/pages/widgets/bulid_nasional_news.dart';
+import 'package:uts/providres/ekonomi_new_provider.dart';
+import 'package:uts/providres/nasional_new_provider.dart';
+import 'package:uts/providres/news_update_provider.dart';
+import 'package:uts/providres/tech_new_provider.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage>
           margin: const EdgeInsets.all(16),
           child: const CircleAvatar(
             radius: 30,
-            backgroundImage: AssetImage('assets/astri.jpg'),
+            backgroundImage: AssetImage('assets/elsa.jpeg'),
           ),
         ),
         const Column(
@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage>
               ),
             ),
             Text(
-              'Astri Aulia Fajriati',
+              'Elsa Mayorita Dewanti',
               style: TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.w600,
@@ -294,7 +294,7 @@ class _HomePageState extends State<HomePage>
             indicatorSize: TabBarIndicatorSize.tab,
             isScrollable: true,
             labelColor: Colors.white,
-            unselectedLabelColor: Colors.grey,
+            unselectedLabelColor: const Color.fromARGB(255, 2, 2, 2),
             tabAlignment: TabAlignment.start,
             tabs: const [
               Tab(text: 'Tekno'),

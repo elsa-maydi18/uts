@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/pages/on_boarding_page.dart';
-import 'package:news_app/providres/ekonomi_new_provider.dart';
-import 'package:news_app/providres/nasional_new_provider.dart';
-import 'package:news_app/providres/news_update_provider.dart';
-import 'package:news_app/providres/tech_new_provider.dart';
+import 'package:uts/pages/on_boarding_page.dart';
+import 'package:uts/providres/ekonomi_new_provider.dart';
+import 'package:uts/providres/nasional_new_provider.dart';
+import 'package:uts/providres/news_update_provider.dart';
+import 'package:uts/providres/tech_new_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/date_symbol_data_local.dart' as intl;
 

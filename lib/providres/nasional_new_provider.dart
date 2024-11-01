@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:news_app/models/nasional_news_models.dart';
+import 'package:uts/models/nasional_news_models.dart';
 
 class NasionalNewProvider with ChangeNotifier {
   List<NasionalNewsModels> _nasionalList = [];

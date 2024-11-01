@@ -19,13 +19,13 @@ class ProfilePage extends StatelessWidget {
             const CircleAvatar(
               radius: 80,
               backgroundImage:
-                  AssetImage('assets/astri.jpg'), // Pastikan gambar ada
+                  AssetImage('assets/elsa.jpeg'), // Pastikan gambar ada
             ),
             const SizedBox(height: 10),
-            itemProfile(context, 'Nama Lengkap', 'Astri Aulia Fajriati',
+            itemProfile(context, 'Nama Lengkap', 'Elsa Mayorita Dewanti',
                 CupertinoIcons.person),
             const SizedBox(height: 10),
-            itemProfile(context, 'NIM', '212225007', CupertinoIcons.cube_box),
+            itemProfile(context, 'NIM', '23EO60001', CupertinoIcons.cube_box),
             const SizedBox(height: 10),
             itemProfile(context, 'Program Studi', 'Informatika',
                 CupertinoIcons.command),
@@ -33,10 +33,10 @@ class ProfilePage extends StatelessWidget {
             itemProfile(context, 'Fakultas', 'Matematika Dan Ilmu Komputer',
                 CupertinoIcons.command),
             const SizedBox(height: 10),
-            itemProfile(context, 'Alamat', 'Karang Maja Planjan Kesugihan',
+            itemProfile(context, 'Alamat', 'Jalan Tapangdengklok RT.04 RW.08 Tegalkamulyan',
                 CupertinoIcons.location),
             const SizedBox(height: 10),
-            itemProfile(context, 'Email', 'astriauliafajriati@gmail.com',
+            itemProfile(context, 'Email', 'elsamayoritad@gmail.com',
                 CupertinoIcons.mail),
           ],
         ),

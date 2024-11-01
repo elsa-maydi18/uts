@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:news_app/models/tech_news_model.dart';
-import 'package:news_app/pages/news_detail_page.dart';
+import 'package:uts/models/tech_news_model.dart';
+import 'package:uts/pages/news_detail_page.dart';
 
 class BuildTechNews extends StatelessWidget {
   final TechNewsModel berita;

@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:news_app/models/news_update_models.dart';
+import 'package:uts/models/news_update_models.dart';
 
 class NewsUpdateProvider with ChangeNotifier {
   List<NewsUpdateModel> _beritaList = [];

@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:news_app/models/tech_news_model.dart';
+import 'package:uts/models/tech_news_model.dart';
 
 class TechNewsProvider with ChangeNotifier {
   List<TechNewsModel> _techList = [];
